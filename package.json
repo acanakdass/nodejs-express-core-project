@@ -1,0 +1,25 @@
+{
+  "name": "lawyer-personal-blog-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "http-status": "^1.5.0",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.17.0",
+    "sqlite3": "^5.0.2",
+    "uuid": "^8.3.2"
+  }
+}
